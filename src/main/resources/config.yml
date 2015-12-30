@@ -1,0 +1,2 @@
+#this will cause the api to look for .json files instead of .ais if true
+release: true

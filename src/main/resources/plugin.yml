@@ -1,0 +1,17 @@
+name: AIAPI
+version: 1.1.0
+main: me.raynorjames.ai.ArchitectInterpreter
+descritpion: A way cool structure plugin.
+commands:
+   makestructure:
+      description: Creates a json file of the selected structure for reading of normal ArchitectInterpreter clients.
+      aliases: ms
+   loadedstructures:
+      description: Lists all structures in the servers memory.
+      aliases: ls
+   reallocatestructures:
+      description: Reloads all structures from file.
+      aliases: rs
+   reloadconfig:
+      description: Reloads config so you can reallocate with different build type without restarting
+      aliases: rc
